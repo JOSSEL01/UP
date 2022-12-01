@@ -1,0 +1,27 @@
+body{
+	background: black;
+}
+
+h1{
+	font-family: monospace;
+	font-size: 1cm;
+	color: white;
+	text-align: center;
+}
+
+img{
+	border-radius: 0.5cm;
+	width: 500px;
+	display: block;
+}
+
+a{
+	font-family: monospace;
+	font-size: 0.7cm;
+	color: white;
+}
+
+h2{
+	font-family: monospace;
+	color: white;
+}
