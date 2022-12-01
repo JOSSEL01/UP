@@ -3,6 +3,60 @@ body{
 	cursor: url(img/flecha.png), auto;
 }
 
+nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: black;
+    width: 100%;
+}
+
+.logo {
+    background: url(img/tit.png) no-repeat 50% 50%;
+    background-size: contain;
+    width: 240px;
+    height: 90px;
+    float: left;
+}
+
+.menu{
+    position: absolute;
+    right: 20px;
+}
+
+.menu a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: red;
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+.btn:hover > span {
+    background-color: #E85860;
+}
+.btn span {
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: #333;
+}
+
 h1{
 	font-family: monospace;
 	font-size: 1cm;
