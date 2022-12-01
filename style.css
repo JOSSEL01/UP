@@ -1,5 +1,6 @@
 body{
 	background: black;
+	cursor: url(img/flecha.png), auto;
 }
 
 h1{
@@ -16,6 +17,7 @@ img{
 }
 
 a{
+	cursor: url(img/mano.png), auto;
 	font-family: monospace;
 	font-size: 0.7cm;
 	color: white;
